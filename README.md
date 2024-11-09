@@ -29,14 +29,14 @@ The "Hybrid" name refers to convolutional layers being followed by LSTM layer(s)
 The models already perform quite well with accuracy across classes ranging from 94-100% accuracy as we can see in Figure 1 & 2. Convergence also happens quite quickly as both models early stop at 13-14 epochs. The CNN overfits to training data slightly more than Hybrid, however both models seem to plateu around 98.3% overall accuracy, which is still very respectable (fig 1, 2).
 
 <div style="display: flex; align-items: center;">
-    <img src="./Figures/model_0_loss.jpg" alt="Model Loss" style="height: 250px; margin-right: -30px;">
-    <img src="./Figures/model_0_confm.jpg" alt="Confusion Matrix" style="height: 250px;">
+    <img src="./Figures/model_0_loss.jpg" alt="Model Loss" style="height: 225px; margin-right: -30px;">
+    <img src="./Figures/model_0_confm.jpg" alt="Confusion Matrix" style="height: 225px;">
 </div>
 <font size=2><i>Figure 1 - Visualization of CNN performance in the form of loss curve, accuracy curve, and confusion matrix.</i></font>
 <br><br>
 <div style="display: flex; align-items: center;">
-    <img src="./Figures/model_1_loss.jpg" alt="Model Loss" style="height: 250px; margin-right: -30px;">
-    <img src="./Figures/model_1_confm.jpg" alt="Confusion Matrix" style="height: 250px;">
+    <img src="./Figures/model_1_loss.jpg" alt="Model Loss" style="height: 225px; margin-right: -30px;">
+    <img src="./Figures/model_1_confm.jpg" alt="Confusion Matrix" style="height: 225px;">
 </div>
 <font size=2><i>Figure 2 - Visualization of Hybrid (CNN + LSTM) performance in the form of loss curve, accuracy curve, and confusion matrix.</i></font>
 
@@ -51,20 +51,20 @@ As seen in Figure 3, this dataset is fairly imbalanced. To account for this imba
 
 ### Results from Class Balancing
 <div style="display: flex; align-items: center;">
-    <img src="./Figures/model_2_loss.jpg" alt="Model Loss" style="height: 250px; margin-right: -30px;">
-    <img src="./Figures/model_2_confm.jpg" alt="Confusion Matrix" style="height: 250px;">
+    <img src="./Figures/model_2_loss.jpg" alt="Model Loss" style="height: 225px; margin-right: -30px;">
+    <img src="./Figures/model_2_confm.jpg" alt="Confusion Matrix" style="height: 225px;">
 </div>
 <font size=2><i>Figure 4 - Visualization of Hybrid performance with the use of a weighted loss function.</i></font>
 <br><br>
 <div style="display: flex; align-items: center;">
-    <img src="./Figures/model_3_loss.jpg" alt="Model Loss" style="height: 250px; margin-right: -30px;">
-    <img src="./Figures/model_3_confm.jpg" alt="Confusion Matrix" style="height: 250px;">
+    <img src="./Figures/model_3_loss.jpg" alt="Model Loss" style="height: 225px; margin-right: -30px;">
+    <img src="./Figures/model_3_confm.jpg" alt="Confusion Matrix" style="height: 225px;">
 </div>
 <font size=2><i>Figure 5 - Visualization of Hybrid performance with the use of a weighted random sampler.</i></font>
 <br><br>
 <div style="display: flex; align-items: center;">
-    <img src="./Figures/model_4_loss.jpg" alt="Model Loss" style="height: 250px; margin-right: -30px;">
-    <img src="./Figures/model_4_confm.jpg" alt="Confusion Matrix" style="height: 250px;">
+    <img src="./Figures/model_4_loss.jpg" alt="Model Loss" style="height: 225px; margin-right: -30px;">
+    <img src="./Figures/model_4_confm.jpg" alt="Confusion Matrix" style="height: 225px;">
 </div>
 <font size=2><i>Figure 6 - Visualization of Hybrid performance with the use of downsampled dataset.</i></font>
 
